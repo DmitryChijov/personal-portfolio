@@ -42,6 +42,10 @@ nav > a:hover {
     background-color: #45567d;
 }
 
+p, h1, h2, h3, h4 {
+    color: #ede5e6;
+}
+
 #welcome-section {
     background-color: #2e3032;
     display: flex;
@@ -55,7 +59,7 @@ nav > a:hover {
 
 h1 {
     margin: 50% 20%;
-    color: #ede5e6;
+    
     font-size: 3.5em;
 }
 
@@ -68,24 +72,19 @@ span {
 }
     
 
-.hero {
-    color: #ede5e6;
-}
-
 #projects {
     background-color: #45567d;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
+    padding: 10%;
     align-items: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
 .header-project {
     padding: 70px 0 10px 0;
-    color: #ede5e6;
     font-size: 1.8em;
     margin-bottom: 50px;
 }
@@ -102,7 +101,7 @@ span {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     padding-bottom: 25px;
 }
 
@@ -110,7 +109,6 @@ span {
     width: 400px;
     height: 450px;
     background-color: #303841;
-    color: #ede5e6;
    
 }
 
@@ -125,17 +123,16 @@ h3 {
 
 .btn {
     width: 150px;
+    margin-top: 20px;
     background-color: #303841;
     display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     gap: 8px;
     transition: 0.3s;
-    position: absolute;
-   
 }
 
 
@@ -152,15 +149,66 @@ h3 {
 }
 
 .btn > p {
-    color: #ede5e6;
     font-size: 1.3em;
     font-weight: bold;
 }
 
+
 footer {
-    background-color: #303841;
+    background-color: #2e3032;
+}
+
+
+.footer-hero {
+    text-align: center;
+}
+
+h4 {
+    font-size: 3.5em;
+    padding-top: 20%;
+    
+}
+.footer-hero > p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    font-size: 1.8em;
+    margin-top: 50px;
+    padding-bottom: 20%;
+    
+}
+
+.contact > a {
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.contact > a:hover {
+    -webkit-transform: translate(0,10px); 
+}
+
+.red-line {
+    border-bottom: 4px solid #be3144;
 
 }
+
+.detalis {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20%;
+
+}
+
+
 
 
      
