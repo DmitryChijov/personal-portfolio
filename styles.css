@@ -222,7 +222,22 @@ h4 {
 
 }
 
+@media only screen and (max-width: 900px) {
+    .contact {
+        gap: 30px;
+    }
 
+    .detalis {
+        gap: 10%;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .detalis {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 
 
 
